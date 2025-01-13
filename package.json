@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+    
+  },
+
+    "scripts": {
+      "dev": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend/crud-empresas\""
+    }
+   
+ 
+}
+  
